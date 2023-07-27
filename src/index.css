@@ -1,0 +1,403 @@
+body{
+  display: flex;
+  flex-direction: column;
+}
+.main{
+  height: 100px;
+  width: 100%;
+  background-color: azure;
+  display : flex ;
+  flex-direction: row;
+}
+body{
+  margin: 0%;
+  padding: 0%;
+}
+.head{
+  height: 100px;
+  width: 25%;
+  
+  display: flex ;
+  flex-direction: column;
+
+
+}
+
+.l{
+margin-left: 70px;
+margin-right: 20px;
+justify-content: center;
+align-items: center;
+}
+.h5{
+  margin-left: 100px;
+  font-size: 30px;
+
+}
+.h2{
+
+    margin-left: 15%;
+    justify-content: space-evenly;
+    display: flex;
+    width: 50%;
+    font-family: sans-serif;
+    font-size: 16px;
+    padding: 8px;
+    margin-top: 30px;
+  
+}
+
+.img1{
+  height: 800px;
+  width: 100%;
+  
+  background-size: cover;
+  margin: 0%;
+  padding: 0%;
+  background-image: url(https://img.freepik.com/free-photo/book-with-pencil-cup-with-stationery-desk_23-2147849996.jpg?w=996&t=st=1685874453~exp=1685875053~hmac=685db8dfd301c1bcf772d61a327472c0f3471fda5da0b744d1eabcab3264fa76);
+  background-color: rgb(0, 0, 0, 1);
+}
+
+.bg{
+  height: 800px;
+  width: 100%;
+  
+  background-size: cover;
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+  
+  background-color: rgb(0, 0, 0, 0.3);
+
+}
+
+
+.l1{
+  font-family: "Raleway", sans-serif;
+    color: #fff;
+    font-size: 82px;
+    font-weight: 700;
+    text-transform: uppercase;
+    
+    margin-bottom: 10px;
+    display: flex;
+    justify-content:space-evenly;
+
+}
+.p1{
+  font-family: "Raleway", sans-serif;
+    color:white;
+    font-size: 20px;
+    font-weight: 500;
+    text-transform: uppercase;
+    
+    margin-top: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content:space-evenly;
+
+
+}
+.b1{
+   font-family: "Raleway", sans-serif;
+    text-transform: uppercase;
+    color: #fff;
+    background-color: #5ca9fb;
+    background-image: linear-gradient(to right, #5ca9fb 0%, #6372ff 100%);
+    padding: 14px 34px;
+    letter-spacing: 1px;
+    margin-top: 50px;
+    font-size: 15px;
+    font-weight: 500;
+    border-radius: 25px;
+    transition: all 0.5s linear;
+    border: 0;
+
+
+}
+
+.l2{
+  
+  font-size: 50px;
+  font-weight: 700px;
+  font-family: "Raleway", sans-serif;;
+    margin-top: 20px;
+    margin-bottom: 15px;
+    padding-bottom: 15px;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-weight: 400;
+
+}
+.line{
+  height: 5px;
+  width: 90px;
+  background-color: blue;
+   align-items: center;
+   display: flex;
+   flex-direction: column;  
+   margin-left: 685px;
+   margin-top: 0;
+   margin-bottom: 10px;
+  
+
+}
+
+.head3
+{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  margin-top: 50px;
+  height: 200px;
+  width: 90%;
+  margin-left: 5%;
+}
+.list1
+{
+  width: 20%;
+  height: 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+
+}
+.list2
+{
+  margin-left: 25%;
+  background-color:#5ca9fb;
+  height: 120px;
+  width: 120px;
+  border-radius: 50%;
+}
+.fa{
+  font-size: 50px;
+  color: white;
+  margin: 40px;
+
+}
+.p5{
+  margin-left: 35px;
+  font-size: x-large;
+}
+.imp{
+  height: 800px;
+  width: 100%;
+  
+  display: flex;
+  flex-direction: row;
+
+}
+.imp1{
+  height: 700px;
+  width: 50%;
+  background-image: url(https://mccubeindia.com/img/about.jpg);
+  background-repeat: no-repeat;
+  margin-top: 70px;
+  margin-left: 90px;
+}
+.imp2{
+  height: 800px;
+  width:60% ;
+  
+}
+.h{
+
+  font-size: 18px;
+  color: gray;
+}
+.w{
+  margin-left: 90px;
+  font-size: 25px;
+}
+.lab{
+  display: flex;
+  flex-direction: row;
+  margin-left: 30px;
+}
+li{
+  list-style: none;
+  margin-left: 30px;
+  margin-top: 10px;
+
+}
+.main8{
+  width: 100%;
+  height: 900px;
+  background-color: #5ca9fb;
+  display: flex;
+  flex-direction: column;
+
+}
+
+.main8p1{
+  display: flex;
+  height: 100px;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  margin-top: 80px;
+}
+
+.main8p2{
+  width: 85%;
+  height: 300px;
+  justify-content: center;
+  display: flex;
+  align-items: center;
+  margin-left: 100px;
+}
+
+.main8p3{
+  width: 85%;
+  height: 200px;
+  display: flex;
+
+  flex-direction: row;
+  justify-content: center;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+
+.label{
+  font-size: 20px;
+  font-family: sans-serif;
+  color: white;
+  margin-left: 30px;
+
+}
+
+.main8p4{
+
+  height: 150px;
+  width: 85%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  justify-content: space-evenly;
+  
+}
+
+
+.main8p5{
+  margin-top: -20px;
+  height: 4px;
+  width: 77px;
+  background-color: #a2bcfa;
+}
+.gallery{
+  height: 150vh;
+  margin-left: 5%;
+  width: 90%;
+
+  margin-top: 40px;
+}
+.im{
+  height: 33.3%;
+  width: 33.3%;
+}
+
+.dd1{
+  height: 800px;
+  width: 100%;
+  
+  margin-top: 30px;
+}
+.chips{
+  height: 150px;
+  width: 80%;
+  
+  margin-left: 150px;
+  display: flex;
+  flex-direction: row;
+  margin-top: 30px;
+  
+}
+.box
+{
+  height: 160px;
+  width: 250px;
+  
+  margin-left: 150px;
+  display: flex;
+  flex-direction: row;
+}
+.circle{
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+  
+}
+  
+.rec{
+  height: 110px;
+  width: 300px;
+  margin-left: 20px;
+  background-color:white ;
+  
+}
+.c5{
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+h3{
+  font-size: 15px;
+ justify-content: space-evenly;
+}
+.last{
+  height: 600px;
+  width: 100%;
+  background-color: #6372ff;
+}
+.end{
+  height: 400px;
+  width: 40%;
+  background-color: #6372ff;
+  margin-left: 300px;
+  margin-top: 40px;
+  
+  align-items: center;
+}
+.fo{
+  color: white;
+}
+.font{
+  color:white;
+  font-size: 20px;
+  margin: 0%;
+}
+.mail p{
+  color: #fff;
+}
+.ad p{
+  color: #fff;
+}
+.click:hover{
+  transform: scale(2);
+  transition-duration: 0.5s;
+}
+:hover{
+  text-decoration: dotted;
+}
+.form{
+  background-color: rgb(116, 12, 12);
+  height: 500px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  justify-content: center;
+  align-items: center;
+}
+.input-container{
+  height: 70px;
+  width: 30%;
+}
+.button-container{
+  color: black;
+}
